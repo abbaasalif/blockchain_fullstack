@@ -1,0 +1,6 @@
+echo 1024 > /proc/sys/net/core/somaxconn
+if port 300 or any port is already in use and you cant close the process
+do:
+
+lsof -i:3000
+kill -9 [PID]
